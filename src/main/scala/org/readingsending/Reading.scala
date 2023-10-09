@@ -40,6 +40,6 @@ object Reading extends App {
 
 
   // Write the DataFrame as CSV files to HDFS
-  df.writeStream.format("csv").option("checkpointLocation", "/tmp/bd_us/Mahmoud/kafkab/").option("path", "/tmp/bd_us/Mahmoud/kafkab/FraudApib").start().awaitTermination()
+  df.writeStream.format("csv").option("checkpointLocation", "/tmp/jenkins/kafkab").option("path", "/tmp/jenkins/kafkab/FraudApib").start().awaitTermination()
 
 }
