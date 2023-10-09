@@ -4,7 +4,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import requests._
 
-object SendingKafka {
+object Sending_Kafka {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().appName("My Spark Application").master("local[*]").getOrCreate()
     while (true) {
