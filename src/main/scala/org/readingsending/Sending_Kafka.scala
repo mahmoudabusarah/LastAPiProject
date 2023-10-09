@@ -1,7 +1,6 @@
-package org.example12
+package org.readingsending
 
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions._
 import requests._
 
 object Sending_Kafka {
